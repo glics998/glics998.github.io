@@ -1,10 +1,4 @@
-* { body-sizing; order box}
-
-
-
-
-
-
+* { box-sizing:border-box; }
 
 body {
    background #ff0;
@@ -15,7 +9,7 @@ body {
 .column {
     background: #ff0;
     width: 130px;
-    margin: 0px 15px 0px 15px
+    padding: 0px 15px 0px 15px
     display: inline-block;
     font-size 14px;
 
