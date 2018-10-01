@@ -21,4 +21,7 @@ div {
      background: #b200ff
  }
 
+ .section li{
+    list-style-type: none;
+ }
  
