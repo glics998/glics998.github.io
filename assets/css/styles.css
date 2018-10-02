@@ -1,27 +1,6 @@
 body {
     background:#008cff
-    font-size:30px;
-}
-
-img {
-    width: 200px;
-}
- 
-div {
-    background: #008cff
-
-
-}
- header {
-     background: #0f0
-
+    font-size:60px;
+    font-family: 'Indie Flower', cursive;
  }
-
- purple {
-     background: #b200ff
- }
-
- .section li{
-    list-style-type: none;
- }
- 
+  
