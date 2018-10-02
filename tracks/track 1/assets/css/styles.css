@@ -1,13 +1,17 @@
 body {
     background:#008cff
-    font-size:50px;
+    font-size:30px;
+}
+
+img {
+    width: 200px;
+}
+ 
+div {
+    background: #008cff
+
 
  }
-
- div {
-    background: #008cf
-    font-size: 60px;
-    }
 
  
 
