@@ -1,0 +1,31 @@
+* { box-sizing:border-box; }
+
+body {
+   background #ff0;
+    margin:50px 300px 100px 
+    font size: 0;
+}
+
+.column {
+    background: #ff0;
+    width: 130px;
+    padding: 0px 15px 0px 15px
+    display: inline-block;
+    font-size 14px;
+
+.c1 {width 130px}
+.c2 {width 290px}
+.c3 {width 450px}
+.c4 {width 610px}
+.c5 {width 770px}
+.c6 {width 930px}
+
+img {width:{100%;}
+
+.wrapper {
+    width# 960px;
+    margin: 0 auto 0 auto
+    background: #ff0;
+}
+
+
