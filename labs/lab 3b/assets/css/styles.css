@@ -1,122 +1,18 @@
-<html>
-<head>
-<style> 
-#main {
-    width: 680px;
-    height: 680px;
-    border: 1px solid #c3c3c3;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-content: center;
-    align-content: center;
+lement.style {
 }
-
-<html>
-<head>
-<style> 
-#main {
-    width: 70px;
-    height: 300px;
-    border: 1px solid #c3c3c3;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-content: center;
-    align-content: center;
+.square1 {
+    display: inline-block;
+    width: 568px;
+    height: 568px;
+    background: #202665;
+    position: relative;
 }
-
-#main div {
- width:680px;
- height:100px;
- }
-
-#green div {
-width:680px;
-height: 40px;
+.rel1 {
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
 }
-
-#red div {
-width:680px;
-height:50px;
-}
-
-#green2 div {
-width:680px;
-height: 40px;
-}
-
-
-#red2 div {
-width:680px;
-height:50px;
-}
-
-
-#green3 div {
-width:680px;
-height: 40px;
-}
-
-
-#red3 div {
-width:680px;
-height:50px;
-}
-
-#green4 div {
-width:680px;
-height: 40px;
-}
-
-
-#red4 div {
-width:680px;
-height:50px;
-}
-
-
-#green5 div {
-width:680px;
-height: 40px;
-}
- 
-
-</style>
-</head>
-<body>
-<h1>The align-content Property</h1>
-
-
-<div id="main">
- <div style="background-color:yellow;"></div>
-  
- <div style="background-color:#202665;"></div>
-
-
-<div id="green">
-
- <div style="background-color:#009e4f;"></div>
-  
-
-
-<div id=red>
-
- <div style= background-color:#ed2025;></div>
- 
-
-<div id="green2">
-
- <div style="background-color:#009e4f;"></div>
- 
-
-<div id=red2>
-
- <div style= background-color:#ed2025;></div>
- 
- 
-<div id="green3">
-
- <div style="background-color:#009e4f;"></div
+* {
+    box-sizing: border-box;
