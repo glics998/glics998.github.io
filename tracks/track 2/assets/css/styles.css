@@ -1,15 +1,7 @@
-body {
-    
-    font-size 60;px;
-    font-family: 'Indie Flower', cursive;
-
-}
-
-div  {
-   
-   image-orientation:center
-    width:1000px;
-    height: 1000px;
+div: {
+    Width: 200px;
+    Height: 200px;
+    }
 
 
 
