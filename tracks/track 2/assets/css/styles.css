@@ -5,11 +5,11 @@ body {
 
 }
 
-img {
-    width: 600px;
-position: relative
-
-}
+div  {
+   
+   image-orientation:center
+    width:1000px;
+    height: 1000px;
 
 
 
