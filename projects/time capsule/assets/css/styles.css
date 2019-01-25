@@ -1,4 +1,6 @@
-
+body {
+background-color: black;
+}
 .wrapper {
 	width: 90%;
 	margin: 100px auto;
@@ -39,7 +41,7 @@ div.gallery ul li img {
 	position:relative;
 	left:0 ;
 	top: 0;
-	border: 10px solid grey
+	border: 10px solid white;
 	padding: 10 px;
 	width: 200px;
 	height: 200px;
