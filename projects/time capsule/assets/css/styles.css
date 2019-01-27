@@ -1,11 +1,8 @@
-body {
-background-color: white;
-}
+
 .wrapper {
 	width: 400%;
 	margin: 200px auto;
 }
-
 div.gallery ul {
 	list-style-type: none;
 	margin-left: 40px;
