@@ -1,19 +1,14 @@
 body {
-background-color: black;
+background-color: white;
 }
 .wrapper {
-	width: 90%;
-	margin: 100px auto;
-}
-
-div.gallery {
-    margin-top: 50px;
-
+	width: 400%;
+	margin: 200px auto;
 }
 
 div.gallery ul {
 	list-style-type: none;
-	margin-left: 35px;
+	margin-left: 40px;
 }
 
 div.gallery ul li, div.gallery li img {
@@ -33,9 +28,7 @@ div.gallery ul li {
 	z-index: 0;
 }
 
-div.gallery ul li:hover {
-	z-index: 130 ;
-}
+
 
 div.gallery ul li img {
 	position:relative;
@@ -43,9 +36,9 @@ div.gallery ul li img {
 	top: 0;
 	border: 10px solid white;
 	padding: 10 px;
-	width: 200px;
-	height: 200px;
-	background: solid black;
+	width: 300px;
+	height: 300px;
+
 }
 
 div.gallery ul li img:hover {
