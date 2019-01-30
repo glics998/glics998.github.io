@@ -3,6 +3,13 @@ body {
     font-family: 'Reenie Beanie', cursive;
     color: #ECF0F1;
     background-color: #F14646;
-   
 
 }
+
+h2 {
+ color: purple;
+}
+
+h3 {
+    color: purple;
+   }
