@@ -1,14 +1,17 @@
 body {
     font-size: 70px;
     font-family: 'Courier New', Courier, monospace;
-    color: #ECF0F1;
-    background-color: #F14646;
+    color:lightgreen;
+    background-color:  #F14646;
+  
+
 }
 
 h1
 {
     font-size: 80px;   
 }
+
 
 
 
