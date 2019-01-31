@@ -1,15 +1,9 @@
 body {
-    font-size:40px;
-    font-family: 'Reenie Beanie', cursive;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;;
     color: #ECF0F1;
     background-color: #F14646;
 
 }
 
-h2 {
- color: white;
-}
 
-h3 {
-    color:white;
-   }
