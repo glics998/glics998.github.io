@@ -1,9 +1,30 @@
 body {
-    font-size:25px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #ECF0F1;
-    background-color: #F14646;
+    font-size:20px;
+    font-family:"cursive", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  purple ;
+    text-align: right;
+
 }
+
+h1 { 
+ color: rgb(236, 195, 236);
+ font-size: 100px;
+ text-align: left;
+}
+
+h2 {
+    font-size: 50px;
+    color:rgb(200, 120, 247);
+    text-align: left;
+}
+
+
+   
+
+
+
+
+
 
 
 
