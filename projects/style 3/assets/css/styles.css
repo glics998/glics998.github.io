@@ -1,10 +1,27 @@
 body {
     font-size:25px;
     font-family: 'Major Mono Display', monospace;
-    color:black;
-    background-color:white;
+    color:rgb(248, 123, 7);
+    background-color:yellow;
+    text-align:center;
+    
     
 }
+
+h1{
+    font-size:100px;
+    color:red;
+
+}
+
+h2 {
+    font-size:70px; 
+    color:red}
+
+
+
+  
+
 
 
 
