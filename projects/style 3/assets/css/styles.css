@@ -16,7 +16,14 @@ h1{
 
 h2 {
     font-size:70px; 
-    color:red}
+    color:red;
+    display: block;
+    margin-block-start: 1 em;
+    margin-block-end: 1 em;
+    margin-inline-start: 1 px;
+    margin-inline-end: 1 px;
+    font-weight: bold;
+}
 
 
 

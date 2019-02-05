@@ -2,7 +2,7 @@ body {
     background-color:salmon;
     color: pink;
     font-size: 30px;
-    text-align: center;
+    text-align:right;
      height: 3000px; /* Used to enable scrolling */
     background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
     font-family: 'Monoton', cursive;
@@ -14,7 +14,7 @@ h1{
     font-size:100px;
     font-family: 'Monoton', cursive;
     color:rgb(245, 7, 86);
-    text-align: center;
+    text-align:center;
 
 }
 
@@ -22,7 +22,7 @@ h2 {
     font-size:50px;
     font-family: 'Monoton', cursive;
     color:rgb(238, 95, 95);
-    text-align: center;
+    text-align: right;
 }
 
 
