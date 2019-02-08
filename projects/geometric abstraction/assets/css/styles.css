@@ -1,9 +1,61 @@
+html,
+
 body {
-    font-size:25px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #ECF0F1;
-    background-color: #F14646;
+background-color:red;
 }
+
+.container {
+    height:100%;
+}
+
+
+.box{
+    width:200px;
+    height: 200px;
+    border:1px aquamarine; 
+    background-color:aquamarine; 
+    position: relative;
+  
+}
+
+.box1{
+    width:200px;
+    height: 200px;
+    border:1px white; 
+    background-color:white;
+   
+}
+
+
+.box2{
+    width:1400px;
+    height: 20px;
+    border:1px black; 
+    background-color:black;
+   
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+    
+
+
+
+
+
+   
+
+
+
 
 
 
