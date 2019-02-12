@@ -1,14 +1,32 @@
-body {
-    font-size:40px;
-    font-family:'Reenie Beanie', cursive;
-    color: black
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  border: 
+ 
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: maroon;
+  transform: rotate(50deg);
+ 
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: maroon;
+  transform: rotate(50deg);
+ 
+}
 
 
 
 
-   
-
-    
 
 
-    
+
