@@ -1,11 +1,60 @@
+content {
+    max-width: 1000px;
+    padding: 100px 30px;
+    margin: auto;
+    font-weight: 300;   
+}
+
 body {
-    font-size:25px;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    color: #ECF0F1;
-    background-color: #F14646;
+    color:white;
+    align-content: center;
+    text-align:center;
+    height: 3000px; /* Used to enable scrolling */
+   background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
 }
 
 
+.snowflake
+{
+    margin-top: 60px;
+    transition: all 10s ease;
+}
+
+.snowflake:hover {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    cursor: pointer;
+}
+
+pre {
+    color:black;
+    font-size: 40px;
+    align-content: center;
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+}
 
 
    
