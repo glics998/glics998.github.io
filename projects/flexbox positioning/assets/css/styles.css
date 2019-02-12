@@ -1,0 +1,109 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+.topleft {
+    align-self: flex-start;
+    width: 250px;
+    height: 250px;
+   
+}
+
+.box-red {
+    background-color: #ff0000;
+}
+
+.container2 {
+    display: flex-end;
+}
+
+.bottomright {
+    width: 250px;
+    height: 250px;
+    align-items: flex-end;
+  
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.container {
+    display: center;
+}
+
+.center {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    
+}
+
+.box-green {
+    background-color: green;
+    
+
+
+}
+
+.container3 {
+    display: flex-start;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+    
+
+
+
+
+
+   
+
+
+
+
+
+
+
+   
+
+    
+
+
+    
