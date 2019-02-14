@@ -41,7 +41,7 @@ body {
   bottom: 50%;
   left: 10%;
   width: 200px;
-	height: 25px;
+  height: 25px;
 }
 
 
@@ -87,11 +87,5 @@ body {
   height: 4.8%;
   top: 37%;
   left: 67%;
-  transform: skew(-90deg);
- 
-}
-
-
-
-
+  }
 
