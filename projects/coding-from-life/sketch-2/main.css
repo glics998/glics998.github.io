@@ -20,3 +20,78 @@ body {
 }
 
 /* Your CSS goes here */
+
+.cat-top{
+  width: 200px;
+  height: 200px;
+  background: bisque;
+  border-radius: 100px / 50px;
+  transform:rotate(270deg);
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+  left: 10%;
+}
+
+
+.cat-red{
+  background:red;
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+  left: 10%;
+  width: 200px;
+	height: 25px;
+}
+
+
+.cat-bottom{
+  width: 200px;
+  height: 200px;
+  background: bisque;
+  border-radius: 100px / 50px;
+  transform:rotate(270deg);
+  position: absolute;
+  top: 10%;
+  bottom: 60%;
+  left: 10%;
+}
+
+.book{
+  position: absolute;
+  font-size: 2vw;
+  background: #4CC7E4;
+  width: 20%;
+  height: 5%;
+  top: 40%;
+  bottom: 70%;
+  left: 75%;
+}
+
+.book-side {
+  position: absolute;
+  font-size: 2vw;
+  background: #4CC7E4;
+  width: 9.2%;
+  height: 4.8%;
+  top: 37%;
+  left: 67%;
+  transform: rotate(29deg);
+}
+
+
+.book-top {
+  position: absolute;
+  background: blue;
+  width: 9.2%;
+  height: 4.8%;
+  top: 37%;
+  left: 67%;
+  transform: skew(-90deg);
+ 
+}
+
+
+
+
+
