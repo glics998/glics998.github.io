@@ -1,10 +1,12 @@
 body {
   font-size:40px;
-  font-family: 'VT323', monospace;
-  color: white;
+  font-family: 'Major Mono Display', monospace;
+  color: blanchedalmond;
   background-image: linear-gradient(	#fccc9c, #f7cca1,#f7cca1,#f7cca1, #e8ccb0, #e3ccb5,	#deccba, 	#d9ccbf, 	#d4ccc4,#cccccc   );     
-  
+
 }
+
+
   
 
 
