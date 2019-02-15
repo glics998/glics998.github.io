@@ -1,9 +1,32 @@
 body {
-    font-size: 30px;
+    font-size:30px;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: #F14646;
-
+    color: #ECF0F1;
+    background-color: #ca71ae;
+    align-content: center;
 
 }
+
+h2{
+    text-shadow: 5px 5px 2px #ff9748;
+}
+
+h1 {
+    text-shadow: 5px 5px 2px#ff829d ;
+   
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
