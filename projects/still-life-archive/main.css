@@ -3,13 +3,17 @@ body {
   font-family: 'Major Mono Display', monospace;
   color: blanchedalmond;
   background-image: linear-gradient(#fccc8c,	#fccc9c, #f7cca1,#f7cca1,#f7cca1, #e8ccb0, #e3ccb5,	#deccba, 	#d9ccbf, 	#d4ccc4,#cccccc   );     
- 
 }
 
 h1 {
-  text-shadow: 10px 10px 2px orange;
+  text-shadow: 10px 10px 2px rgb(39, 17, 235);
     
   }
+
+  h2 {
+    text-shadow: 10px 10px 2px orange;
+      
+    }
 
 
 
