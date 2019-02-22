@@ -21,5 +21,3 @@ signs.forEach(el => {
       filter: saturate(200%) hue-rotate(20deg);
     }
 
-
-
