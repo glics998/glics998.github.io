@@ -20,6 +20,8 @@ body {
   font-size: 6vw;
   line-height: 9vw;
   text-shadow: 0 0 3vw #F40A35;
+  margin-top: 400px;
+  margin-bottom: 300px;
 
 
  
@@ -48,8 +50,8 @@ body {
   font-size: 6vw;xs
   line-height: 9vw;
   text-shadow: 0 0 3vw #2356FF;
-  margin-top: 800px;
-  margin-bottom: 800px;
+  margin-top: 400px;
+  margin-bottom: 200px;
 }
 
 .neon1 {
@@ -76,6 +78,8 @@ body {
     line-height: 9vw;
     text-shadow: 0 0 5vw yellow;  
     margin-bottom: 0px;
+    margin-top: 400px;
+
     
 
   }
@@ -87,7 +91,7 @@ body {
     line-height: 9vw;
     text-shadow: 0 0 3vw #2356FF;
     margin-top: 400px;
-    margin-bottom: 800px;
+    margin-bottom: 300px;
   
     
     
@@ -110,7 +114,12 @@ body {
       color: #146C80;
     }
   }
+
+  .arrow{
+margin-top: 400px;
+}
   
+
 
 
 
