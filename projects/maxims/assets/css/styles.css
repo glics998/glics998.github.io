@@ -20,8 +20,8 @@ body {
   font-size: 6vw;
   line-height: 9vw;
   text-shadow: 0 0 3vw #F40A35;
-  margin-top: 400px;
-  margin-bottom: 300px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 
 
  
@@ -50,8 +50,8 @@ body {
   font-size: 6vw;xs
   line-height: 9vw;
   text-shadow: 0 0 3vw #2356FF;
-  margin-top: 400px;
-  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-bottom: 70px;
 }
 
 .neon1 {
@@ -72,13 +72,14 @@ body {
   }
 }
   .neon4{
-    font-family: neon;
-    color: #ebeb93;
+    font-family:'Raleway', sans-serif;
+    ;
+    color: white;
     font-size: 2vw;
     line-height: 9vw;
     text-shadow: 0 0 5vw rgb(230, 230, 163);  
     margin-bottom: 0px;
-    margin-top: 400px;
+    margin-top: 350px;
 
     
 
@@ -90,11 +91,9 @@ body {
     font-size: 6vw;xs
     line-height: 9vw;
     text-shadow: 0 0 3vw #2356FF;
-    margin-top: 400px;
-    margin-bottom: 300px;
-  
-    
-    
+    margin-top: 200px;
+    margin-bottom: 70px;
+ 
   }
   
   .neon3 {
@@ -116,9 +115,18 @@ body {
   }
 
   .arrow{
-margin-top: 400px;
+margin-top: 200px;
 
   }
+
+
+ 
+
+
+
+
+
+
 
 
 
