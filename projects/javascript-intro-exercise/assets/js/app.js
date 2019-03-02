@@ -56,6 +56,37 @@ if ( hour >= 19 && hour < 22) {
 console.log('Its between 7pm and 9:40pm')
 };
 
+var today= Date;
+console.log ('Today is',date);
+
+if(day = 1){
+  console.log("Today is Monday!")
+}
+
+else if(day=2){
+  console.log("Today is Tuesday!")
+}
+
+else if(day=3){
+  console.log("Today is Wednesday!")
+}
+
+else if(day=4){
+  console.log("Today is Thurday!")
+}
+
+else if (day=5){
+  console.log("Today is Friday!!")
+}
+
+else if (day=6){
+  console.log("Hello Weekend")
+}
+
+else if (day=0){
+  console.log("Goodbye Weekend")
+}
+
 var arrayFood= ['pasta', 'ice cream', 'mac n cheese'];
 console.log (arrayFood);
 
