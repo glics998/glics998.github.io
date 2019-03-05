@@ -1,6 +1,6 @@
 body {
-    background: white;
-    color: black;
+    background:white;
+    color: white;
     font-size: 30px;
     font-family: 'helvtica';
     display: flex;
@@ -10,29 +10,34 @@ body {
 }
 
 h1{
-margin bottom: .5px;
+margin-bottom: .5px;
 font-size: 40px;
 }
 
 a{
     text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 10px black;
+    color:black;
 }
 
 h2{
-  font-size: 30px; 
-  margin-top: 30px;
-  color: white;
-  text-shadow: 1px 1px 10px black;
+  font-size: 40px; 
+  margin-top: .25px;
+  color: black;
 
 }
 
 img{
-    margin-top: .10px;
-    margin bottom: .5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
+
+
+
 
 
 
