@@ -1,6 +1,6 @@
 body {
     background:white;
-    color: white;
+    color: black;
     font-size: 30px;
     font-family: 'helvtica';
     display: flex;
@@ -11,13 +11,14 @@ body {
 
 h1{
 margin-bottom: .5px;
-font-size: 40px;
+font-size: 37px;
 }
 
 a{
     text-decoration: none;
     color:black;
 }
+
 
 h2{
   font-size: 40px; 
@@ -26,14 +27,22 @@ h2{
 
 }
 
-img{
+.img{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
+h3{
+    font-size: 40px; 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
 
 
