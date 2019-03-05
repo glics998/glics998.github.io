@@ -4,17 +4,25 @@ body {
     color: #ECF0F1;
     background-color: #ca71ae;
     align-content: center;
+    text-decoration: none;
 
 }
 
 h2{
     text-shadow: 5px 5px 2px #ff9748;
+ 
+
 }
 
 h1 {
     text-shadow: 5px 5px 2px#ff829d ;
-   
+    text-decoration-style: dashed;
 
+
+}
+
+a{
+    text-decoration-style: dotted;
 }
 
 
