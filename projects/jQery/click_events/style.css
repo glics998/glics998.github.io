@@ -1,1 +1,58 @@
-/* Your styles go here */
+#div1{
+    width:300px;
+    height:160px;
+    background-color:rgb(221, 18, 86);
+    margin-left: 400px;
+    cursor: pointer;
+  
+    }
+
+    #div2{
+    width:300px;
+    height:160px;
+    background-color:rgb(233, 71, 125);
+    margin-left: 400px;
+    cursor: pointer;
+
+    }
+
+    #div3{
+    width:300px;
+    height:160px;
+    background-color:rgb(250, 88, 162);
+    margin-left: 400px;
+    cursor: pointer;
+    
+    }
+
+    #div4{
+    width:300px;
+    height:160px;
+    background-color:rgb(250, 126, 167);
+    margin-left: 400px;
+    cursor: pointer;
+    
+    }
+
+    #div5{
+    width:300px;
+    height:160px;
+    background-color:rgb(250, 156, 186);
+    margin-left: 400px;
+    cursor: pointer;
+    }
+
+    #chgcolor{
+    width:300px;
+    height:300px;
+    background-color:aqua;
+    border:4px solid turquoise;
+    margin-top:-550px;
+    margin-left:800px
+    }
+
+body{
+background-color:aqua;
+}
+
+
