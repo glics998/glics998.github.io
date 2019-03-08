@@ -1,50 +1,44 @@
 body{
-    display: block;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin:8px;
+  text-align: center;
 }
 
-.container{
-    width: 100vw;
-    height: 10vw;
-    display: flex;
-   
+.box{
+  font-family: sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  justify-content: center;
+  border: solid 2px salmon;
+  padding: 5px 10px;
+  margin-top: 2%;
+  cursor: pointer;
+  color: salmon;
+
 }
 
-.button {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    padding: 10px  20px;
-    display: inline;
-    font-size: 30px; 
-    font-family: sans-serif;
-    cursor: pointer;
-    margin-left: 2vh;
-  }
+.boxes{
+  margin-top: 10%;
+  font-family: sans-serif;
+  font-size: 60px;
+  display: flex;
+  color: salmon;
+  justify-content: space-around;
+}
 
-  .box{
-    width: 10vw;
-    height: 10vw;
-    border: 2px solid purple;
-    background-color: white;
-    margin: 40px;
-    font-family: avenir, sans-serif;
-    font-size: 100px;
-    color: purple;
-    top: 20vw;
-  
-  }
+.one{
+  border: solid 2px salmon;
+  padding: 30px 40px;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  line-height: 150px;
+}
 
-  .color{
-    background-color: purple;
-    color: white;
-  }
+.one.active{
+  background: salmon;
+  color: white;
+
+}
+
 
   
 
