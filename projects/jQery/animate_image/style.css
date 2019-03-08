@@ -1,16 +1,7 @@
-.seagull.active {
-    display: block;
-    }
-
 .seagull{
-    cursor: pointer;
-
+ position: absolute;
+ right: 0px;
+ opacity:0;
+top :0;
 }
-
-.position{
-	left: 50vw;
-	top: 20vw;
-	position: absolute;
-}
-
 
