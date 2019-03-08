@@ -1,1 +1,23 @@
-/* Your styles go here */
+img{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    display: none;
+    align-content: center;
+}
+
+h1 {
+    text-shadow: 5px 5px 2px#ff829d;
+    align-content: center;
+
+}
+
+body{
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ECF0F1;
+    background-color: #ca71ae;
+    align-content: center;
+    text-decoration: none;
+}

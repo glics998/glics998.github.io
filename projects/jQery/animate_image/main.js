@@ -1,10 +1,6 @@
-$(function() {
-$( "#seagull" ).click(function() {
-  $( "#seagull" ).animate({
-  marginLeft: "12in",
-  borderWidth: "10px"
-  }, 1500 );
-});
+$('.image').click(function() {
+  $('#seagull').addClass('position');
+  console.log("click")
 });
 
 
