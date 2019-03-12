@@ -7,6 +7,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+
 }
 
 h1{
@@ -29,9 +31,7 @@ h2{
 
 .img{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: auto;
 }
 
 h3{

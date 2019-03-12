@@ -1,57 +1,17 @@
 body {
-    background:white;
-    color: black;
-    font-size: 30px;
-    font-family: 'helvtica';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-size:50px;
+    font-family:'Courier New', Courier;
+    background: plum;
+    align-content: center;
+    text-align: center;
+    margin-top: 350px;
 }
 
-h1{
-margin-bottom: .5px;
-font-size: 37px;
-}
 
 a{
     text-decoration: none;
-    color:black;
-}
-
-
-h2{
-  font-size: 40px; 
-  margin-top: .25px;
-  color: black;
-
-}
-
-.img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-h3{
-    font-size: 40px; 
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-.top{
-    font-size: 40px; 
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
+    color:white;
+    border: 5px solid white;
 }
   
 
