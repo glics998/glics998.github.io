@@ -1,0 +1,15 @@
+body {
+    font-size:50px;
+    font-family:'Courier New', Courier;
+    color: salmon;
+    background: white;
+    align-content: center;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color:salmon;
+
+}
