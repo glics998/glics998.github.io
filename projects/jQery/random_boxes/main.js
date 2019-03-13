@@ -3,7 +3,7 @@ $(function() {
         console.log("hello")
       
         var number=Math.floor((Math.random()
-       *5) +1);
+       *5) +0);
        console.log(number)
       
       $('.one').removeClass('active');
