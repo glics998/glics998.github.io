@@ -1,8 +1,16 @@
 .clock-part {
-    height: 50px;
+    height: 200px;
     width: 2px;
-    background: black;
-    margin-left: 40px;
-  }
-
+    background:powderblue;
+    margin-left: 300px;
+    align-content: ;
   
+}
+
+body{
+background: black;
+
+}
+
+
+
