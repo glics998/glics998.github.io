@@ -1,16 +1,37 @@
-.clock-part {
-    height: 200px;
-    width: 2px;
-    background:powderblue;
-    margin-left: 300px;
-    align-content: ;
+body {
+    font-family:'Monoton', cursive ;
+ 
+      display: flex;
+    color:red;
+    text-shadow: 10px 10px 0px yellow;
+    text-align: center;
+    font-size: 300px;
+    background:black;
+    margin-top:-100px;
+    
+    
+
+}
+
+#seconds{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    margin-top: 330px;
+}
+
+ 
+
+
+
+
+
+
   
-}
 
-body{
-background: black;
 
-}
+
 
 
 

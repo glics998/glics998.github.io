@@ -1,24 +1,15 @@
-$(function() {
-  var $clockText = $('#clock-text');
-  var $hour = $('#hour');
-  var $minute = $('#minute');
-  var $second = $('#second');
-  
-  function updateClock() {
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
-    var ms = date.getMilliseconds();
-    var clockUpdateSpeed = 30; // speed in milliseconds
+$(document).ready(function() {
 
-    $clockText.html(h + ":" + m + ":" + s + ":" + ms);
-    $hour.css('transform', 'rotate(' + (360/24 * h) + 'deg)');
-    $minute.css('transform', 'rotate(' + (360/60 * m) + 'deg)');
-    $second.css('transform', 'rotate(' + (360/60 * s) + 'deg)');
+  $(function() {
+      setInterval(function() {
+        var color = 0;
+     
+        var minute = new Date().getMinutes();
+        var hours = new Date().getHours();
 
-    setTimeout(updateClock, clockUpdateSpeed);
-  }
+        var whatToPrint = hours + ":" + minute + ":";
+        $("#t1").html(whatToPrint);
+      }, 1000);
+    });
+  });
 
-  updateClock();
-});
