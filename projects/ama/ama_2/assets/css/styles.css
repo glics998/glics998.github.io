@@ -66,13 +66,10 @@ a{
     text-decoration: none;
     text-shadow: -1px -1px 0 wheat, 1px 1px 0 wheat, 1px 1px 0 black, 1px 1px 0 black;
     color:black;
-    margin-left: 530px;
-    margin-top: 400px;
+    margin-left: 1200px;
+    margin-top: 100px;
     font-size:50pt;
    font-family: 'Roboto', sans-serif;
     font-family: 'Libre Barcode 128', cursive;
-    font-family: 'Libre Barcode 128 Text', cursive;
-
-
-   
+    font-family: 'Libre Barcode 128 Text', cursive;  
 }
