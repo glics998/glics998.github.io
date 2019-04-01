@@ -25,38 +25,8 @@ h1{
 .text{
     column-count: 2;
     margin-top:20px;
-
 }
 
-.children{
-    margin-left: 300px;
-	margin-top: 25px;
-	margin-right: auto;
-	font-size: 20pt;
-	color: greenyellow;
-	width: 950px;
-	text-align: left;
-	column-count: 1;
-	column-width: 200px;
-    column-gap: 200px;
- 
-
-}
-
-.adults{
-    margin-left:200px;
-	margin-top: 0px;
-	margin-right: auto;
-	font-size: 20pt;
-	color:#00B000;
-	width: 950px;
-	text-align: justify;
-	column-count: 1;
-	column-width: 200px;
-    column-gap: 200px;
-   
-
-}
 
 a {
     text-align: center;
