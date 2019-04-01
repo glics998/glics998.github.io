@@ -1,0 +1,91 @@
+body {
+    font-size:30px;
+    font-family:  monospace;
+    background-color: black;
+    flex-direction: column;
+    justify-content:center;
+    text-decoration: none;
+
+}
+
+h1{
+    align-content:center;
+    text-align: center;
+    font-size: 37pt;
+    text-shadow: -1px -1px 0 wheat, 1px 1px 0 wheat, 1px 1px 0 black, 1px 1px 0 black;
+    color:black;
+   
+   
+   
+   
+}
+
+
+
+.text{
+    column-count: 2;
+    margin-top:20px;
+
+}
+
+.children{
+    margin-left: 300px;
+	margin-top: 25px;
+	margin-right: auto;
+	font-size: 20pt;
+	color: greenyellow;
+	width: 950px;
+	text-align: left;
+	column-count: 1;
+	column-width: 200px;
+    column-gap: 200px;
+ 
+
+}
+
+.adults{
+    margin-left:200px;
+	margin-top: 0px;
+	margin-right: auto;
+	font-size: 20pt;
+	color:#00B000;
+	width: 950px;
+	text-align: justify;
+	column-count: 1;
+	column-width: 200px;
+    column-gap: 200px;
+   
+
+}
+
+
+a{
+    text-decoration: none;
+    text-shadow: -1px -1px 0 wheat, 1px 1px 0 wheat, 1px 1px 0 black, 1px 1px 0 black;
+    color:black;
+    margin-left: 20px;
+    margin-top: 500px;
+    font-size:40pt;
+   font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Barcode 128', cursive;
+    font-family: 'Libre Barcode 128 Text', cursive;   
+}
+
+h2{
+margin-top: 10px;
+margin-left: 0px;
+
+}
+
+h3{
+margin-top: -89px;
+margin-left: 1220px;
+}
+
+
+   
+
+    
+
+
+    
