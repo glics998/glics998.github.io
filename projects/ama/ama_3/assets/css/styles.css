@@ -13,11 +13,7 @@ h1{
     text-align: center;
     font-size: 37pt;
     text-shadow: -1px -1px 0 wheat, 1px 1px 0 wheat, 1px 1px 0 black, 1px 1px 0 black;
-    color:black;
-   
-   
-   
-   
+    color:black;  
 }
 
 
@@ -25,6 +21,38 @@ h1{
 .text{
     column-count: 2;
     margin-top:20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.child{
+    display: flex;
+    margin-left: 140px;
+	/* margin-top: 25px; */
+	/* margin-right: auto; */
+	column-count: 1;
+	column-width: 200px;
+    column-gap: 200px;
+ 
+
+}
+
+.adults{
+    display: flex;
+    margin-left:200px;
+	/* margin-top: 0px; */
+	/* margin-right: auto; */
+    width: 950px;
+	column-count: 1;
+	column-width: 200px;
+    column-gap: 200px;
+   
 }
 
 
