@@ -1,43 +1,12 @@
 body{
   text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  color:white;
+  margin-top: 600px;
 }
 
-.box{
-  font-family: sans-serif;
-  font-size: 50px;
-  display: inline-block;
-  justify-content: center;
-  border: solid 2px salmon;
-  padding: 5px 10px;
-  margin-top: 2%;
-  cursor: pointer;
-  color: salmon;
 
-}
-
-.boxes{
-  margin-top: 10%;
-  font-family: sans-serif;
-  font-size: 60px;
-  display: flex;
-  color: salmon;
-  justify-content: space-around;
-}
-
-.one{
-  border: solid 2px salmon;
-  padding: 30px 40px;
-  width: 250px;
-  height: 250px;
-  margin: 10px;
-  line-height: 150px;
-}
-
-.one.active{
-  background: salmon;
-  color: white;
-
-}
 
 
   
