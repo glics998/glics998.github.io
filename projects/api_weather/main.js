@@ -18,13 +18,15 @@ $.get('http://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be8895f
     }else if(data.main.temp < 288.706){
         colorOutput = 'red'; 
     }
+
+    
     
    
     $('body').css('background',colorOutput);
    
    
 
-
+  
 
 
 });
