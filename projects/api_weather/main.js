@@ -1,4 +1,4 @@
-$.get('http://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be8895fa7bc3958d3c71c003ef8751', function(data) {
+$.get(' https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be8895fa7bc3958d3c71c003ef8751', function(data) {
     // The get request fires a callback function when the API request finishes
     console.log(data);
     // The data object contains all the information returned in the API
@@ -19,14 +19,16 @@ $.get('http://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be8895f
         colorOutput = 'red'; 
     }
 
-    
-    
-   
     $('body').css('background',colorOutput);
    
-   
 
-  
+    for(var counter=0; counter< 1; counter++){ 
+        if(data.main.temp > 288.706){
+           $('body').append('<div class="circle"></div>');
 
+        document.getElementsByClassName('circle')[0].style.animationDuration = moving-circle;
+        }
+
+    } 
 
 });
