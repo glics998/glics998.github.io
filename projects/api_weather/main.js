@@ -3,8 +3,7 @@ $.get(' https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be889
     console.log(data);
     // The data object contains all the information returned in the API
     var weather = data.weather[0];
-    var humidity = results.main.humidity;
-    var temp = results.main.temp;
+   
   
     // In this case, the most interesting bit of data is in the weather key
     // Now do something interesting with the data!
