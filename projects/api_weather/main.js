@@ -3,14 +3,16 @@ $.get(' https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be889
     console.log(data);
     // The data object contains all the information returned in the API
     var weather = data.weather[0];
+    var humidity = results.main.humidity;
+    var temp = results.main.temp;
   
     // In this case, the most interesting bit of data is in the weather key
     // Now do something interesting with the data!
     $('body').html('The weather is ' + weather.description);
 
     $('body').html( 'The Temperature in K is ' + data.main.temp);
-   
-
+  
+ 
 
     var colorOutput = 'body';
     if(data.main.temp < 277.594){
@@ -20,15 +22,28 @@ $.get(' https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be889
     }
 
     $('body').css('background',colorOutput);
+
+
+
+    for(var counter=0; counter< 1; counter++){
+        console.log('counter', counter);
+        console.log('weathertext', weathertext);
+    
+            if(weathertext == 'Rain'){
+    
+              $('body').document.getElementById('profile_button').src = 'cloud.png'; ;
+
+            }else if(weathertext == 'Clouds'){
+    
+                $('body').document.getElementById('profile_button').src = 'rain.png'; };
+      
+              
+    
+            
+         
+
    
 
-    for(var counter=0; counter< 1; counter++){ 
-        if(data.main.temp > 288.706){
-           $('body').append('<div class="circle"></div>');
 
-        document.getElementsByClassName('circle')[0].style.animationDuration = moving-circle;
-        }
-
-    } 
 
 });
