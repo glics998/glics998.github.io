@@ -22,15 +22,5 @@ $.get(' https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be889
 
     $('body').css('background',colorOutput);
 
-
-
-    var imageOutput = 'body';
-    if(data.main.temp < 277.594){
-        imageOutput = 'rain.png'; 
-    }else if(data.main.temp < 288.706){
-        imageOutput = 'cloud.png'; 
-    }
-
-    $('body').css('body',imageOutput);
         
 });
