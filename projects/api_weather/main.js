@@ -25,25 +25,13 @@ $.get(' https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be889
 
 
 
-    for(var counter=0; counter< 1; counter++){
-        console.log('counter', counter);
-        console.log('weathertext', weathertext);
-    
-            if(weathertext == 'Rain'){
-    
-              $('body').document.getElementById('profile_button').src = 'cloud.png'; ;
+    var imageOutput = 'body';
+    if(data.main.temp < 277.594){
+        imageOutput = 'rain.png'; 
+    }else if(data.main.temp < 288.706){
+        imageOutput = 'cloud.png'; 
+    }
 
-            }else if(weathertext == 'Clouds'){
-    
-                $('body').document.getElementById('profile_button').src = 'rain.png'; };
-      
-              
-    
-            
-         
-
-   
-
-
-
+    $('body').css('body',imageOutput);
+        
 });
