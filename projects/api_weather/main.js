@@ -16,7 +16,7 @@ $.get(' https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=d3be889
     var colorOutput = 'body';
     if(data.main.temp < 277.594){
         colorOutput = 'blue'; 
-    }else if(data.main.temp < 288.706){
+    }else if(data.main.temp < 278){
         colorOutput = 'red'; 
     }
 
