@@ -1,4 +1,3 @@
-var data=
 {
 	"adjective1": "",
 	"adjective2": "",
@@ -17,4 +16,4 @@ var data=
 	"bodyPart": "",
 	"numbers": [],
 	"foods": []
-  };
+  }
