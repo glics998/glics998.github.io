@@ -10,6 +10,15 @@ $(function() {
 		var celebrityName= data.celebrityName;
 		var noun1 = data.noun1;
 		var noun2= data.noun2;
+		var pluralNoun1= data.pluralNoun1;
+		var pluralNoun2= data.pluralNoun2;
+		var pluralNoun3= data.pluralNoun3;
+		var verbEndingInIng= data.verbEndingInIng;
+		var placeInNewYork= data.placeInNewYork;
+		var bodyPart= data.bodyPart;
+		var numbers= data.numbers;
+		var foods= data.foods;
+
 
 		
 		$('.word-adjective-1').html(adjective1)
@@ -19,6 +28,18 @@ $(function() {
 		$('.website-name').html(data.websiteName)
 		$('.artist-name').html(data.artistName)
 		$('.celebrity-name').html(data.celebrityName)
+		$('.noun-1').html(data.noun1)
+		$('.noun-2').html(data.noun2)
+		$('.plural-noun-1').html(data.pluralNoun1)
+		$('.plural-noun-2').html(data.pluralNoun2)
+		$('.plural-noun-3').html(data.pluralNoun3)
+		$('.verb-ending-in-ing').html(data.verbEndingInIng)
+		$('.place-in-new-york').html(data.placeInNewYork)
+		$('.body-part').html(data.bodyPart)
+		$('.numbers').html(data.numbers)
+		$('.foods').html(data.foods)
+
+
 
 
 	}).fail(function() {
@@ -64,6 +85,8 @@ $('.random-button').click(function() {
 	var randomUrl = urls[ Math.floor(Math.random()*urls.length) ];
 	// $.get(randomUrl, function() { ... });
   });
+
+
 		
 		
 		

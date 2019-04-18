@@ -12,8 +12,8 @@
 	"pluralNoun2": "trucks",
 	"pluralNoun3": "cars",
 	"verbEndingInIng": "drawing",
-	"placeInNewYork": "soho",
+	"placeInNewYork": "Soho",
 	"bodyPart": "nose",
-	"numbers": [2, 28],
-	"foods": ["pasta", "pizza","ice cream" ]
+	"numbers": [28],
+	"foods": ["pasta" ]
   }
