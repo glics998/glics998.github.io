@@ -1,61 +1,71 @@
 body{
-	background:pink;
-	color:red;
+	background:rebeccapurple;
+	color:orchid;
 	font-family: monospace;
 	align-items: center;
-	font-size: 20px;
+	font-size: 35px;
+	align-content: center;
 }
 
+
+p{
+	width: 1360px;
+	border:3px solid white;
+	padding: 20px;
+	align-self: baseline;
+}
+
+
 .word-adjective-1{
-	color:orchid;
+	color:red;
 }
 
 .word-adjective-2{
-	color: orchid;
+	color: red;
 }
 
 .art-supply{
-	color: orchid;
+	color:red;
 }
 
 .computer-software{
-	color: orchid;
+	color:red;
 }
 
 .website-name{
-	color: orchid;
+	color: red;
 }
 
 .artist-name{
-	color: orchid;
+	color: red;
 }
 
 .celebrity-name{
-	color: orchid;
+	color: red;
 }
 
 .noun-1{
-	color: orchid;
+	color:red;
 }
 
 .noun-2{
-	color: orchid;
+	color:red;
 }
 
 .plural-noun-1{
-	color: orchid;	
+	color: red;	
 }
 
 .plural-noun-2{
-	color: orchid;	
+	color:red;	
 }
 
 .plural-noun-3{
-	color: orchid;	
+	color: red;	
 }
 
 .verb-ending-in-ing{
-	color: orchid;	
+	color: red;	
 }
 
 .place-in-new-york{
@@ -63,15 +73,24 @@ body{
 }
 
 .body-part{
-	color: orchid;
+	color: red;
 }
 
 .numbers{
-	color: orchid;
+	color: red;
 }
 
 .foods{
-	color: orchid;
+	color:red;
+}
+
+button {
+	color: rebeccapurple;
+	font-family: monospace;
+	background-color:white;
+	font-size: 50px;
+	margin-bottom: 60px;
+	margin-top: 60px;
 }
 
 
