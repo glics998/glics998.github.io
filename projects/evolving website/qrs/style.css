@@ -4,43 +4,65 @@ body{
   background-color:#F7D1D1; 
   color: #F96D71;
   align-content: center;
+  margin-top: 40px;
+  margin-left: 90px;
+
 }
 
 .text1{
-  text-align: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 300px;
+  text-align: center;
+  align-content: center;
+  border-radius: 25px;
+  border: 2px solid white; 
+  width: 210px;
+  height:210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 44px;
+ 
 }
 
 .text2{
-  text-align: right;
-  margin-bottom: 50px;
-  margin-right: 300px;
+  text-align: center;
+  align-content: center;
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 210px;
+  height:210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 55px;
+ 
+ 
+ 
 }
 
-.text3{
-  text-align: right;
-  margin-bottom: 50px;
-  margin-right: 300px;
-
+.box {
+  background-color:#F7D1D1;
+  border-radius: 25px;
+  padding: 30px;
+  border: 2px solid white;
 }
 
-.text4{
-  text-align: left;
-  margin-bottom: 30px;
-  margin-left: 300px;
+
+.wrapper {
+  width: 800px;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(6, 210px);
+  grid-template-rows: 210px 210px 210px;
+  grid-auto-flow: column;
 }
 
-.lock{
-width: 200px;
-height: 230px;
-margin-top: 120px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-
+.contacts{
+  height:210px;
+  width: 210px;
 }
+
+
+
 
 
 
