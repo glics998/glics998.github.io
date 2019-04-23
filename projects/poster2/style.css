@@ -3,15 +3,17 @@ html, body {
   }
 
 body {
-  background:rgb(240, 230, 205);
+  background:white(240, 230, 205);
   text-align: center;
   font-family: monospace;
   align-content: center;
+  background: white ;
+
   }
 
-h1 {
+h1{
   background-image:
-  linear-gradient(326deg, #861657 0%, #ffa69e 74%); 
+  linear-gradient(326deg, #f9c5d1 0%, #9795ef 74%); 
   background-size: 100%;
   background-position: 50% 50%;
   -webkit-background-clip: text;
@@ -21,14 +23,18 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 5px solid black;
+
  
   }
 
 .header{
-  font-size: 3.2em;
-  border: 5px solid #861657 ;
-  width: 230px;
-  color: #861657;
+  font-size: 4em;
+  border: 5px solid  #9795ef ;
+  width: 300px;
+  color:  #9795ef;
   margin-left: auto;
   margin-right: auto;
   }
@@ -36,9 +42,9 @@ h1 {
 
 .day{
   font-size: 2em;
-  border: 5px solid #861657 ;
+  border: 5px solid  #9795ef ;
   width: 100px;
-  color: #861657;
+  color:  #9795ef;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -49,8 +55,8 @@ h1 {
   .text1{
     font-size: 2em;
     width: 150px;
-    border: 5px solid #ffa69e  ;
-    color: #ffa69e ;
+    border: 5px solid #f9c5d1  ;
+    color:  #f9c5d1 ;
     display: block;
     margin-left: auto;
     margin-right: auto;  
@@ -59,8 +65,8 @@ h1 {
     .text2{
       font-size: 2em;
       width: 175px;
-      border: 5px solid #ffa69e  ;
-      color: #ffa69e ;
+      border: 5px solid  #f9c5d1  ;
+      color:  #f9c5d1 ;
       display: block;
       margin-left: auto;
       margin-right: auto;  
@@ -69,18 +75,36 @@ h1 {
       .text3{
         font-size: 2em;
         width: 200px;
-        border: 5px solid #ffa69e  ;
-        color: #ffa69e ;
+        border: 5px solid  #f9c5d1  ;
+        color:  #f9c5d1 ;
         display: block;
         margin-left: auto;
         margin-right: auto;  
+        margin-bottom:30px;
         }
 
+      a{
+          font-size: 2em;
+          border: 2px solid  #9795ef ;
+          width: 100px;
+          color:  #9795ef;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          }
 
+.image1{
+  width: 800px;
+  height: 300px;
+  margin-top:50px;
+            
+          }
 
-
-
-
+.image2{
+  width: 800px;
+  height: 300px;
+  margin-bottom:50px;
+          }
 
 
 
