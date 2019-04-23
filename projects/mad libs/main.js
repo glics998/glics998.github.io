@@ -74,14 +74,14 @@ var urls=
 	$('.button').click(function() { 
 		console.log( $(this) );
 		var url= $(this).data('url');
-		console.log(url);
+		console.log(ranodomUrl);
 
-		$.get(url,function(data) {
+		$.get(randomUrl,function(data) {
 			console.log(data);
 		});
 	});
 
-$('.random-button').click(function() {
+$('.button').click(function() {
 	var randomUrl = urls[ Math.floor(Math.random()*urls.length) ];
 	// $.get(randomUrl, function() { ... });
   });
