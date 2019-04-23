@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+  }
+
+body {
+  background:rgb(240, 230, 205);
+  text-align: center;
+  font-family: monospace;
+  align-content: center;
+  }
+
+h1 {
+  background-image:
+  linear-gradient(326deg, #861657 0%, #ffa69e 74%); 
+  background-size: 100%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  font-size: 8em;
+  font-family: monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  }
+
+.header{
+  font-size: 3.2em;
+  border: 5px solid #861657 ;
+  width: 230px;
+  color: #861657;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+.day{
+  font-size: 2em;
+  border: 5px solid #861657 ;
+  width: 100px;
+  color: #861657;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+
+  .text1{
+    font-size: 2em;
+    width: 150px;
+    border: 5px solid #ffa69e  ;
+    color: #ffa69e ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    }
+
+    .text2{
+      font-size: 2em;
+      width: 175px;
+      border: 5px solid #ffa69e  ;
+      color: #ffa69e ;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;  
+      }
+
+      .text3{
+        font-size: 2em;
+        width: 200px;
+        border: 5px solid #ffa69e  ;
+        color: #ffa69e ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+ 
+
+
+
