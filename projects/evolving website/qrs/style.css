@@ -9,40 +9,20 @@ body{
 
 }
 
-.text1{
-  text-align: center;
-  align-content: center;
-  width: 210px;
-  height:210px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 44px;
-  border-radius: 25px;
-    border: 2px solid white;
- 
-}
-
-.text2{
-  text-align: center;
-  align-content: center;
-  width: 210px;
-  height:210px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 55px;
-  border-radius: 25px;
-    border: 2px solid white;
- 
- 
- 
-}
 
 .box {
   background-color:#F7D1D1;
   height:210px;
   width: 210px;
+}
+
+
+.text {
+  background-color:#F7D1D1;
+  height:210px;
+  width: 210px;
+
+ 
 
 }
 
