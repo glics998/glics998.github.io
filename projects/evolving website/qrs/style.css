@@ -4,8 +4,9 @@ body{
   background-color:#F7D1D1; 
   color:#F96D71;
   align-content: center;
-  margin-top: 40px;
+  margin-bottom: 100px;
   margin-left: 90px;
+margin-top: 50px;
 
 }
 
@@ -16,30 +17,29 @@ body{
   width: 210px;
 }
 
-
-.text {
-  background-color:#F7D1D1;
-  height:210px;
-  width: 210px;
-
- 
-
-}
-
-
 .wrapper {
   width: 800px;
   display: grid;
   grid-gap: 50px;
-  grid-template-columns: repeat(6, 210px);
-  grid-template-rows: 210px 210px 210px;
+  grid-template-columns: repeat(6, 300px);
+  grid-template-rows: 250px 250px 250px;
   grid-auto-flow: column;
+  margin-top: 100px;
 }
 
-.contacts{
-  height:210px;
-  width: 210px;
+
+a{
+  text-decoration: none;
+  color:#F96D71;
+  border: 5px solid #F96D71;
+  box-shadow: 5px 5px #F96D71;
+  margin-top: 20px;
+  margin-left: 520px;
+
+
 }
+
+
 
 
 
