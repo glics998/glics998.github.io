@@ -1,24 +1,32 @@
-$(function() {
-    var $clockText = $('#clock-text');
-    var $hour = $('#hour');
-    var $minute = $('#minute');
-    var $second = $('#second');
-    
-    function updateClock() {
-      var date = new Date();
-      var h = date.getHours();
-      var m = date.getMinutes();
-      var s = date.getSeconds();
-      var ms = date.getMilliseconds();
-      var clockUpdateSpeed = 30; // speed in milliseconds
-  
-      $clockText.html(h + ":" + m + ":" + s + ":" + ms);
-      $hour.css('transform', 'rotate(' + (360/24 * h) + 'deg)');
-      $minute.css('transform', 'rotate(' + (360/60 * m) + 'deg)');
-      $second.css('transform', 'rotate(' + (360/60 * s) + 'deg)');
-  
-      setTimeout(updateClock, clockUpdateSpeed);
-    }
-  
-    updateClock();
+$(document).ready(function() {
+
+  $(function() {
+      setInterval(function() {
+        var color = 0;
+        var hour = new Date().getHours();
+        var minute = new Date().getMinutes();
+        var seconds = new Date().getSeconds();
+        var whatToPrint = hour + ":" + minute;
+        $("#sec").html(whatToPrint);
+      }, 1000);
+
+
+var day =  {weekday: 'long'};
+var wd =  new Date().toLocaleDateString('en-us', day);
+
+var dMonth =  {day: 'numeric'};
+var md=  new Date().toLocaleDateString('en-us', dMonth);
+
+var month= { month: 'long'};
+var m =  new Date().toLocaleDateString('en-us',month);
+
+var year =  { year: 'numeric'};
+var y =  new Date().toLocaleDateString('en-us', year);
+
+document.getElementById("today").innerHTML = wd +", "+m+" "+md+", "+y;
+
+document.getElementById("month").innerHTML =m;
+    });
   });
+
+

@@ -8,7 +8,7 @@ body{
   margin-right: auto;
   text-align: center;
   align-content: center;
- margin-top: 100px;
+ margin-top: 80px;
   
 }
 
@@ -43,8 +43,25 @@ a{
   color:#F96D71;
   border: 5px solid #F96D71;
   box-shadow: 5px 5px #F96D71;
+  padding: 10px;
+  letter-spacing: 7px;
+  font-size: 30px;
 
 }
+
+#sec {
+  font-size: 80px;
+  color:#F96D71;
+
+}
+
+main{
+  font-size: 20px;
+  color:#F96D71;
+
+}
+
+
 
 
 
