@@ -9,6 +9,30 @@ h1{
   text-align:left;
 }
 
+.header{
+  text-align:left;
+}
+
+.weather-image{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: auto;
+  width: 20%;
+  align-content: center;
+  z-index: 1;
+
+}
+
+
+
+
+
+
+
+
 
 
 
