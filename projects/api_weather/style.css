@@ -1,29 +1,26 @@
 body{
-  text-align: center;
   font-family: monospace;
   font-size: 30px;
-  color:black;
-}
+  background:url('world.gif');
+  
 
-h1{
-  text-align:left;
 }
 
 .header{
-  text-align:left;
+  margin-left: 300px;
+
 }
 
 .weather-image{
   display: block;
   position: relative;
-  margin-left: auto;
+  margin-left: 600px;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: -10px;
   margin-bottom: auto;
-  width: 20%;
-  align-content: center;
+  width: 0%;
+  align-content:center;
   z-index: 1;
-
 }
 
 
