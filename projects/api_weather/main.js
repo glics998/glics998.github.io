@@ -13,7 +13,6 @@ $(function(){
 		// Now do something interesting with the data!
      
 
-
       var temp = data.main.temp;
       var hotKelvin = 316;
       var rgbTemp = temp / hotKelvin
